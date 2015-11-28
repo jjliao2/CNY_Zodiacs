@@ -1,0 +1,97 @@
+/* import font */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Schoolbell);
+@import url(https://fonts.googleapis.com/css?family=Julee);
+
+body {
+    background: #f25252;
+}
+
+.site-title{
+    font-family: 'Julee', cursive;
+    font-size: 4em;
+    color: #FFF;
+    text-shadow: 
+        2px 2px 0px #897373,
+        3px 3px 1px #e5bebe;
+}
+
+.sub-header { 
+    font-family: 'Open Sans Condensed', sans-serif;    
+    font-size: 1.5em;
+    color: #FFF;
+    text-shadow: 2px 2px #897373;
+}
+
+.english-zodiac {
+    font-family: 'Julee', cursive;
+    font-size: 3em;
+}
+
+.year-box {font-size: 0.9em;}
+.years {font-weight: bold;}
+.chinese-zodiac {
+    font-size: 6em;
+    text-shadow: 2px 2px #897373;
+}
+.english-zodiac {font-size: 2em;}
+
+
+/* custom class */
+.center-container {
+    text-align: center;
+}
+
+.wrapper {
+}
+
+.zbox {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    overflow: hidden;
+    background: #eacd5b;
+    color: #FFF;
+    font-family: 'Schoolbell', cursive;
+    font-size: 1.2em;
+    box-shadow:3px 3px #964360;
+}
+
+.zodiac-info {
+    color: #FFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-shadow: 1px 1px #897373;
+}
+
+.left-box, .right-box {
+    background: #eacd5b;
+    color: #FFF;
+    text-shadow: 1px 1px #897373;
+}
+
+.left-box {
+    text-align: center;
+}
+
+.right-box {
+    background: #a38080;
+    padding: 5%;
+    overflow: hidden;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
+}
+
+/* hover */
+.col-md-3:hover, col-sm-3:hover, col-xs-3:hover {
+    background: cadetblue;
+    transition: 0.3s ease;
+    text-decoration: none;
+
+}
+
+.col-sm-3 {
+    margin-bottom:3%
+}
+
+.noDeco {
+    text-decoration: none;
+}
